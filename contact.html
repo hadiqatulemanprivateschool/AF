@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact - Hadiqatul Eman Private School</title>
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f8f5;
+      color: #1f2d24;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: linear-gradient(135deg, #007a3d, #0b5f32);
+      color: white;
+      padding: 18px 50px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      width: 85px;
+      height: 85px;
+      border-radius: 50%;
+      background: white;
+      object-fit: cover;
+      padding: 5px;
+    }
+
+    .header-text h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .header-text p {
+      margin: 8px 0 0;
+      font-size: 18px;
+    }
+
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    nav a {
+      margin: 15px;
+      color: #007a3d;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    nav a:hover {
+      color: #0b5f32;
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 35px;
+      max-width: 1100px;
+      margin: auto;
+      flex: 1;
+    }
+
+    .box {
+      background: white;
+      padding: 28px;
+      margin: 22px 0;
+      border-radius: 14px;
+      border-left: 6px solid #007a3d;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .box h2 {
+      color: #007a3d;
+      margin-top: 0;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .contact-item span {
+      font-size: 26px;
+      margin-right: 15px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 14px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+    }
+
+    textarea {
+      height: 140px;
+      resize: vertical;
+    }
+
+    button {
+      background: #007a3d;
+      color: white;
+      border: none;
+      padding: 14px;
+      font-size: 17px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0b5f32;
+    }
+
+    footer {
+      background: #0b5f32;
+      color: white;
+      text-align: center;
+      padding: 22px;
+      margin-top: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <img src="images/1.jpg" class="logo">
+
+    <div class="header-text">
+      <h1>Contact</h1>
+      <p>Get in touch with us for questions, admissions, or school information.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="academics.html">Academics</a>
+    <a href="admissions.html">Admissions</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+
+    <div class="box">
+      <h2>Contact Info</h2>
+
+      <div class="contact-item">
+        <span>📍</span>
+        <p>Kabul, Afghanistan</p>
+      </div>
+
+      <div class="contact-item">
+        <span>📞</span>
+        <p>+93 73 076 4131</p>
+      </div>
+
+      <div class="contact-item">
+        <span>✉️</span>
+        <p>mnikmal531@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <h2>Send Us a Message</h2>
+      <p>If you have a question about admissions, classes, or school information, please send us a message below.</p>
+
+      <form action="mailto:mnikmal531@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="Name" placeholder="Your Full Name" required>
+
+        <input type="email" name="Email" placeholder="Your Email Address" required>
+
+        <input type="text" name="Subject" placeholder="Subject" required>
+
+        <textarea name="Message" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2026 Hadiqatul Eman Private School. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
