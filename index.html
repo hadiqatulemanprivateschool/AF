@@ -3,182 +3,342 @@
 <head>
   <title>Hadiqatul Eman Private School</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f4f8f5;
-      color: #1f2d24;
-    }
+  <!-- ICON LIBRARY FOR PHONE & CLOCK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    header {
-      background: linear-gradient(135deg, #007a3d, #0b5f32);
-      color: white;
-      padding: 18px 50px;
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .logo {
-      width: 85px;
-      height: 85px;
-      border-radius: 50%;
-      background: white;
-      object-fit: cover;
-      padding: 5px;
-    }
-
-    .header-text h1 {
-      margin: 0;
-      font-size: 36px;
-    }
-
-    .header-text p {
-      margin: 8px 0 0;
-      font-size: 18px;
-    }
-
-    nav {
-      background: white;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-
-    nav a {
-      margin: 15px;
-      color: #007a3d;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 17px;
-    }
-
-    nav a:hover {
-      color: #0b5f32;
-      text-decoration: underline;
-    }
-
-    section {
-      padding: 35px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .hero-img {
-      width: 100%;
-      height: 360px;
-      object-fit: cover;
-      border-radius: 16px;
-      box-shadow: 0 5px 18px rgba(0,0,0,0.15);
-    }
-
-    .box {
-      background: white;
-      padding: 28px;
-      margin: 22px 0;
-      border-radius: 14px;
-      border-left: 6px solid #007a3d;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-    }
-
-    .box h2 {
-      color: #007a3d;
-      margin-top: 0;
-    }
-
-    .gallery {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      justify-content: center;
-    }
-
-    .gallery img {
-      width: 300px;
-      height: 210px;
-      object-fit: cover;
-      border-radius: 14px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.12);
-    }
-
-    footer {
-      background: #0b5f32;
-      color: white;
-      text-align: center;
-      padding: 22px;
-      margin-top: 40px;
-    }
-  </style>
+  <!-- MAIN CSS FILE -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header>
-    <img src="images/1.jpg" class="logo">
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div>دری | English</div>
+    <div class="socials">
 
-    <div class="header-text">
-      <h1>Hadiqatul Eman Private School</h1>
-      <p>Educating the next generation with knowledge, character, and faith.</p>
+  <a href="https://www.facebook.com/share/1cGxTyn4uo/?mibextid=wwXIfr" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+
+  <a href="#">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="#">
+    <i class="fab fa-youtube"></i>
+  </a>
+
+  <a href="#">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+
+</div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo-area">
+      <img src="images/1.jpg" class="logo" alt="Hadiqatul Eman School Logo">
+
+      <div>
+        <h1>Hadiqatul Eman</h1>
+        <p>Private School</p>
+      </div>
+    </div>
+
+    <div class="header-info">
+
+      <div class="info-box">
+        <div class="icon">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div>
+          CALL US TODAY!<br>
+          +93 73 076 4131
+        </div>
+      </div>
+
+      <div class="info-box">
+        <div class="icon">
+          <i class="fas fa-clock"></i>
+        </div>
+        <div>
+          WE ARE OPEN!<br>
+          8:00 AM - 3:00 PM
+        </div>
+      </div>
+
     </div>
   </header>
 
+  <!-- NAV -->
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="academics.html">Academics</a>
-    <a href="admissions.html">Admissions</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
+    <div class="nav-left">
+      <a href="index.html">Home</a>
+<div class="dropdown">
+  <a href="about.html" class="dropbtn">Our School ▾</a>
+
+  <div class="dropdown-content">
+    <a href="about.html">About Hadiqatul Eman Private School</a>
+    <a href="principal-message.html">Principal Message</a>
+    <a href="facilities.html">Campus and Facilities</a>
+    <a href="transportation.html">Transportation Services</a>
+    <a href="classes.html">Classes and Grade Levels</a>
+    <a href="term-dates.html">Term Dates</a>
+  </div>
+</div>
+      <a href="academics.html">Learning</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <a href="admissions.html" class="register">Register</a>
   </nav>
 
-  <section>
-    <img src="images/11.jpg" class="hero-img">
-  </section>
+  <!-- HERO SLIDER -->
+<section>
+  <div class="slider">
+    <img src="images/11.jpg" class="slide active" alt="School photo 1">
+    <img src="images/9.JPEG" class="slide" alt="School photo 9">
+    <img src="images/3.jpg" class="slide" alt="School photo 3">
+    <img src="images/7.PNG" class="slide" alt="School photo 7">
 
-  <section>
-    <div class="box">
-      <h2>Our Mission</h2>
+    <button class="prev" onclick="changeSlide(-1)">❮</button>
+    <button class="next" onclick="changeSlide(1)">❯</button>
+  </div>
+</section>
+
+<!-- WELCOME SECTION -->
+<section class="welcome-section">
+
+  <h2 class="welcome-title">
+    Welcome to <span>Hadiqatul Eman Private School</span>
+  </h2>
+
+  <div class="welcome-content">
+    
+    <div class="welcome-text">
       <p>
-        Our mission is to provide quality education for students in Afghanistan through strong academics,
-        good character, and a safe learning environment.
+        Hadiqatul Eman Private School is committed to providing quality
+        education, strong character development, and a safe learning
+        environment for students in Afghanistan.
       </p>
+
+      <a href="about.html" class="read-more-btn">Read More</a>
     </div>
 
-    <div class="box">
-      <h2>Why Choose Us?</h2>
-      <p>
-        We focus on high-quality education, dedicated teachers, student success,
-        and building a strong future for our community.
-      </p>
+    <div class="welcome-image">
+      <img src="images/11.jpg">
     </div>
-  </section>
 
-  <section>
-    <h2 style="text-align:center; color:#007a3d;">Our School Activities</h2>
+  </div>
 
-    <div class="gallery">
-      <img src="images/2.jpg">
-      <img src="images/3.jpg">
-      <img src="images/4.jpg">
-      <img src="images/5.jpg">
-      <img src="images/6.jpg">
-      <img src="images/7.jpg">
+</section>
+
+
+<!-- WHY CHOOSE US -->
+<section class="why-section">
+
+  <div class="why-image">
+    <img src="images/3.jpg">
+  </div>
+
+  <div class="why-text">
+    <h2>Why <span>Choose Us?</span></h2>
+
+    <p>
+      We focus on delivering high-quality education, strong values, and
+      modern teaching methods to help students succeed academically and personally.
+    </p>
+
+    <div class="why-icons">
+      <div class="why-item">
+        <div class="circle">🎓</div>
+        <p>Education Excellence</p>
+      </div>
+
+      <div class="why-item">
+        <div class="circle">📚</div>
+        <p>Student Engagement</p>
+      </div>
+
+      <div class="why-item">
+        <div class="circle">👨‍🏫</div>
+        <p>Teaching & Curriculum</p>
+      </div>
     </div>
-  </section>
 
-  <section>
-    <div class="box">
-      <h2>Contact Us</h2>
-      <p>Email: mnikmal531@gmail.com</p>
-      <p>Phone: +93 73 076 4131</p>
-      <p>Location: Kabul, Afghanistan</p>
+  </div>
+
+</section>
+
+
+
+
+
+
+<!-- LEARNING CYCLE SECTION -->
+<section class="learning-cycle-section">
+
+  <div class="cycle-text">
+    <h2>Our Learning Cycle</h2>
+    <p>
+      Our learning cycle helps students grow step by step through curiosity,
+      exploration, creativity, sharing, and confidence. Each stage supports
+      children in becoming active learners with strong character and knowledge.
+    </p>
+  </div>
+
+  <div class="circle-cycle">
+
+    <div class="cycle-node node-1">
+      <img src="images/2.jpg" alt="Ask">
+      <h3>Ask</h3>
     </div>
-  </section>
 
-  <footer>
-    <p>© 2026 Hadiqatul Eman Private School. All rights reserved.</p>
-  </footer>
+    <div class="cycle-node node-2">
+      <img src="images/3.jpg" alt="Explore">
+      <h3>Explore</h3>
+    </div>
+
+    <div class="cycle-node node-3">
+      <img src="images/4.jpg" alt="Create">
+      <h3>Create</h3>
+    </div>
+
+    <div class="cycle-node node-4">
+      <img src="images/5.jpg" alt="Share">
+      <h3>Share</h3>
+    </div>
+
+    <div class="cycle-node node-5">
+      <img src="images/6.jpg" alt="Grow">
+      <h3>Grow</h3>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- HIGHLIGHTS SECTION -->
+<section class="highlights-section">
+
+
+  <div class="highlights-container">
+
+    <div class="highlight-card">
+      <img src="images/2.jpg" alt="Quality Education">
+      <h3>Quality Education</h3>
+      <p>Strong academic programs designed to help students learn and grow.</p>
+      <a href="academics.html">Learn More</a>
+    </div>
+
+    <div class="highlight-card">
+      <img src="images/5.jpg" alt="Student Activities">
+      <h3>Student Activities</h3>
+      <p>Creative and engaging activities that build confidence and teamwork.</p>
+      <a href="gallery.html">View Gallery</a>
+    </div>
+
+<div class="highlight-card">
+  <img src="images/4.jpg" alt="STEM and Digital Learning">
+  <h3>STEM & Digital Learning</h3>
+  <p>
+    Students explore computers, technology, creativity, and problem-solving skills
+    to prepare for the future.
+  </p>
+  <a href="academics.html">Explore Learning</a>
+</div>
+
+</section>
+
+
+
+
+
+  <!-- NEW FOOTER -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- ADDRESS -->
+    <div class="footer-box">
+      <h3>Address</h3>
+      <p>Kabul, Afghanistan</p>
+      <p>📞 +93 73 076 4131</p>
+      <p>✉️ mnikmal531@gmail.com</p>
+    </div>
+
+    <!-- LINKS -->
+    <div class="footer-box">
+      <h3>Useful Links</h3>
+      <a href="about.html">About Us</a>
+      <a href="academics.html">Learning</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="footer-box">
+      <h3>Follow Us</h3>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/share/1cGxTyn4uo/?mibextid=wwXIfr" target="_blank">
+  <i class="fab fa-facebook-f"></i>
+</a>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+
+    <!-- HOURS -->
+    <div class="footer-box">
+      <h3>Opening Hours</h3>
+      <p>Saturday - Thursday</p>
+      <p>8:00 AM - 3:00 PM</p>
+      <p>Friday: Closed</p>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    © 2025 Hadiqatul Eman Private School. All rights reserved.
+  </div>
+
+</footer>
+
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll(".slide");
+
+  function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove("active"));
+
+    if (index >= slides.length) {
+      slideIndex = 0;
+    }
+
+    if (index < 0) {
+      slideIndex = slides.length - 1;
+    }
+
+    slides[slideIndex].classList.add("active");
+  }
+
+  function changeSlide(direction) {
+    slideIndex += direction;
+    showSlide(slideIndex);
+  }
+
+  setInterval(() => {
+    slideIndex++;
+    showSlide(slideIndex);
+  }, 4000);
+</script>
 
 </body>
 </html>

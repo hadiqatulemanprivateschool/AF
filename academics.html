@@ -3,120 +3,92 @@
 <head>
   <title>Academics - Hadiqatul Eman Private School</title>
 
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-    }
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f8f5;
-      color: #1f2d24;
-      display: flex;
-      flex-direction: column;
-    }
-
-    header {
-      background: linear-gradient(135deg, #007a3d, #0b5f32);
-      color: white;
-      padding: 18px 50px;
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .logo {
-      width: 85px;
-      height: 85px;
-      border-radius: 50%;
-      background: white;
-      object-fit: cover;
-      padding: 5px;
-    }
-
-    .header-text h1 {
-      margin: 0;
-      font-size: 36px;
-    }
-
-    .header-text p {
-      margin: 8px 0 0;
-      font-size: 18px;
-    }
-
-    nav {
-      background: white;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-
-    nav a {
-      margin: 15px;
-      color: #007a3d;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 17px;
-    }
-
-    nav a:hover {
-      color: #0b5f32;
-      text-decoration: underline;
-    }
-
-    section {
-      padding: 35px;
-      max-width: 1100px;
-      margin: auto;
-      flex: 1;
-    }
-
-    .box {
-      background: white;
-      padding: 28px;
-      margin: 22px 0;
-      border-radius: 14px;
-      border-left: 6px solid #007a3d;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
-    }
-
-    .box h2 {
-      color: #007a3d;
-      margin-top: 0;
-    }
-
-    footer {
-      background: #0b5f32;
-      color: white;
-      text-align: center;
-      padding: 22px;
-      margin-top: auto;
-    }
-  </style>
+  <!-- MAIN CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- ✅ FIXED HEADER -->
-  <header>
-    <img src="images/1.jpg" class="logo">
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div>دری | English</div>
+    <div class="socials">
 
-    <div class="header-text">
-      <h1>Academics</h1>
-      <p>Explore our programs designed for academic excellence and student growth.</p>
+  <a href="https://www.facebook.com/share/1cGxTyn4uo/?mibextid=wwXIfr" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+
+  <a href="#">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <a href="#">
+    <i class="fab fa-youtube"></i>
+  </a>
+
+  <a href="#">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+
+</div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo-area">
+      <img src="images/1.jpg" class="logo" alt="Hadiqatul Eman School Logo">
+
+      <div>
+        <h1>Hadiqatul Eman</h1>
+        <p>Private School</p>
+      </div>
+    </div>
+
+    <div class="header-info">
+
+      <div class="info-box">
+        <div class="icon">
+          <i class="fas fa-phone"></i>
+        </div>
+        <div>
+          CALL US TODAY!<br>
+          +93 73 076 4131
+        </div>
+      </div>
+
+      <div class="info-box">
+        <div class="icon">
+          <i class="fas fa-clock"></i>
+        </div>
+        <div>
+          WE ARE OPEN!<br>
+          8:00 AM - 3:00 PM
+        </div>
+      </div>
+
     </div>
   </header>
 
+  <!-- NAV -->
   <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="academics.html">Academics</a>
-    <a href="admissions.html">Admissions</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="contact.html">Contact</a>
+    <div class="nav-left">
+      <a href="index.html">Home</a>
+      <a href="about.html">Our School</a>
+      <a href="academics.html">Learning</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <a href="admissions.html" class="register">Register</a>
   </nav>
 
+ 
+
+  <!-- CONTENT -->
   <section>
 
     <div class="box">
@@ -145,9 +117,58 @@
 
   </section>
 
-  <footer>
-    <p>© 2026 Hadiqatul Eman Private School. All rights reserved.</p>
-  </footer>
+
+ <!-- NEW FOOTER -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- ADDRESS -->
+    <div class="footer-box">
+      <h3>Address</h3>
+      <p>Kabul, Afghanistan</p>
+      <p>📞 +93 73 076 4131</p>
+      <p>✉️ mnikmal531@gmail.com</p>
+    </div>
+
+    <!-- LINKS -->
+    <div class="footer-box">
+      <h3>Useful Links</h3>
+      <a href="about.html">About Us</a>
+      <a href="academics.html">Learning</a>
+      <a href="admissions.html">Admissions</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="footer-box">
+      <h3>Follow Us</h3>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/share/1cGxTyn4uo/?mibextid=wwXIfr" target="_blank">
+  <i class="fab fa-facebook-f"></i>
+</a>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </div>
+
+    <!-- HOURS -->
+    <div class="footer-box">
+      <h3>Opening Hours</h3>
+      <p>Saturday - Thursday</p>
+      <p>8:00 AM - 3:00 PM</p>
+      <p>Friday: Closed</p>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    © 2025 Hadiqatul Eman Private School. All rights reserved.
+  </div>
+
+</footer>
 
 </body>
 </html>
