@@ -808,3 +808,579 @@ footer {
   object-fit: cover;
   border-radius: 15px;
 }
+
+
+/* WHATSAPP FLOAT BUTTON */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  z-index: 9999;
+  transition: 0.3s;
+}
+
+.whatsapp-float:hover {
+  background: #1ebe5d;
+  transform: scale(1.1);
+}
+
+
+
+/* REGISTRATION FORM */
+.registration-section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.registration-card {
+  background: white;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.registration-card h1 {
+  text-align: center;
+  color: #4b2477;
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.registration-card h2 {
+  color: #1f2d24;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 25px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.submit-btn {
+  background: #128000;
+  color: white;
+  padding: 14px 35px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  float: right;
+}
+
+.submit-btn:hover {
+  background: #4b2477;
+}
+
+
+
+
+/* ADMISSIONS PAGE */
+.admissions-info {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.admissions-text {
+  flex: 1.4;
+}
+
+.admissions-text h1 {
+  color: #1f6b4a;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.admissions-text h3 {
+  color: #4b2477;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.admissions-text p {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.admissions-image {
+  flex: 1;
+}
+
+.admissions-image img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+}
+
+.admission-cards {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.admission-card {
+  background: white;
+  padding: 28px;
+  border-radius: 14px;
+  border-left: 6px solid #1f6b4a;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.admission-card h2 {
+  color: #1f6b4a;
+  margin-top: 0;
+}
+
+.admission-card p,
+.admission-card li {
+  color: #555;
+  line-height: 1.7;
+}
+
+/* HERO SECTION */
+.hero {
+  position: relative;
+}
+
+/* TEXT OVER IMAGE */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+
+/* TITLE STYLE */
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text span {
+  color: #c084fc; /* purple */
+}
+
+/* SUB TEXT */
+.hero-text p {
+  font-size: 18px;
+}
+
+/* DARK OVERLAY (makes text readable) */
+.slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+/* FADE ANIMATION */
+.hero-text {
+  animation: fadeInUp 1.5s ease;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -30%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
+.slider {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* NEW WHY CHOOSE US SECTION */
+.why-section-new {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.why-intro h2 {
+  font-size: 38px;
+  color: #1f6b4a;
+  margin-bottom: 15px;
+}
+
+.why-intro p {
+  max-width: 900px;
+  margin: auto;
+  color: #555;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.why-circle-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 45px;
+  flex-wrap: wrap;
+}
+
+.why-circle-card {
+  flex: 1;
+  min-width: 250px;
+  max-width: 310px;
+  text-align: center;
+}
+
+.why-circle-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #1f6b4a;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+}
+
+.why-circle-card h3 {
+  color: #4b2477;
+  font-size: 22px;
+  margin-top: 18px;
+}
+
+.why-circle-card p {
+  color: #555;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* LEARNING PAGE */
+.learning-intro {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.learning-text {
+  flex: 1.4;
+}
+
+.learning-text h1 {
+  color: #1f6b4a;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.learning-text h3 {
+  color: #4b2477;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.learning-text p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.learning-image {
+  flex: 1;
+}
+
+.learning-image img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+}
+
+/* CURRICULUM */
+.curriculum-section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.curriculum-section h2 {
+  text-align: center;
+  color: #1f6b4a;
+  font-size: 36px;
+}
+
+.curriculum-intro {
+  max-width: 850px;
+  margin: 15px auto 35px;
+  text-align: center;
+  color: #555;
+  line-height: 1.7;
+}
+
+.curriculum-cards {
+  display: flex;
+  gap: 25px;
+}
+
+.curriculum-card {
+  flex: 1;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.curriculum-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.curriculum-card div {
+  background: #4b2477;
+  color: white;
+  padding: 25px;
+  min-height: 210px;
+  text-align: center;
+}
+
+.curriculum-card h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.curriculum-card p {
+  line-height: 1.6;
+}
+
+/* DIGITAL LEARNING */
+.digital-learning {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.digital-image,
+.digital-text {
+  flex: 1;
+}
+
+.digital-image img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.digital-text h2 {
+  color: #4b2477;
+  font-size: 34px;
+}
+
+.digital-text p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+/* GALLERY PAGE */
+.gallery-page {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.gallery-page h1 {
+  text-align: center;
+  color: #4b2477;
+  font-size: 40px;
+}
+
+.gallery-intro {
+  max-width: 850px;
+  margin: 15px auto 45px;
+  text-align: center;
+  color: #555;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.gallery-category {
+  margin-bottom: 60px;
+}
+
+.gallery-category h2 {
+  color: #1f6b4a;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.gallery-category p {
+  color: #555;
+  line-height: 1.7;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.04);
+}
+
+
+/* CONTACT PAGE */
+.contact-page {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.contact-page h1 {
+  text-align: center;
+  color: #4b2477;
+  font-size: 40px;
+}
+
+.contact-intro {
+  text-align: center;
+  color: #555;
+  max-width: 800px;
+  margin: 15px auto 40px;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.contact-layout {
+  display: flex;
+  gap: 35px;
+  align-items: flex-start;
+}
+
+.contact-info-boxes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  background: white;
+  padding: 24px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #1f2d24;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  border-left: 6px solid #1f6b4a;
+  transition: 0.3s;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+  border-left-color: #4b2477;
+}
+
+.contact-box i {
+  font-size: 30px;
+  color: #1f6b4a;
+  min-width: 40px;
+}
+
+.contact-box h3 {
+  margin: 0 0 6px;
+  color: #4b2477;
+}
+
+.contact-box p {
+  margin: 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+.contact-map {
+  flex: 1.5;
+}
+
+.contact-map h2 {
+  color: #1f6b4a;
+  margin-bottom: 18px;
+}
+
+.contact-map iframe {
+  border-radius: 14px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+}
