@@ -88,6 +88,10 @@ header {
   font-size: 18px;
 }
 
+
+
+
+
 /* NAV BAR */
 nav {
   background: #128000;
@@ -103,7 +107,8 @@ nav {
 
 .nav-left {
   display: flex;
-  gap: 25px;
+  align-items: center;   /* 👈 aligns all items */
+  gap: 20px;
 }
 
 nav a {
@@ -120,6 +125,11 @@ nav a:hover {
   background: #4b2477;
   color: white;
 }
+
+
+
+
+
 
 /* REGISTER BUTTON */
 .register {
@@ -595,13 +605,29 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+
 /* DROPDOWN MENU */
 .dropdown {
   position: relative;
+  display: flex;
+  align-items: center;
+  height: 60px;
 }
 
 .dropbtn {
-  display: block;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 18px;
+  border-radius: 25px;
 }
 
 .dropdown-content {
@@ -610,17 +636,18 @@ footer {
   top: 60px;
   left: 0;
   background: white;
-  min-width: 280px;
+  min-width: 320px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-  z-index: 1000;
+  z-index: 9999;
 }
 
 .dropdown-content a {
   display: block;
   color: #555;
-  padding: 14px 22px;
-  font-size: 14px;
+  padding: 16px 22px;
+  font-size: 15px;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .dropdown-content a:hover {
@@ -631,6 +658,17 @@ footer {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* PAGE HERO */
